@@ -1,0 +1,76 @@
+# Project Title: [Your Project Name Here]
+
+## 🚧 Project Status: Incomplete / Not Successfully Deployed
+
+This project was an experimental attempt to build a [brief description, e.g., "broadcast-style football video analytics system using YOLO"]. While the core idea was innovative, the project faced several roadblocks that prevented successful completion.
+
+---
+
+## 🧠 Project Objective
+
+The primary goal of this project was to:
+- [Objective 1 — e.g., Detect and track players and ball in a football match video]
+- [Objective 2 — e.g., Generate visual stats like possession, highlights, and scorecards]
+- [Objective 3 — e.g., Deliver match insights in a broadcast-ready format]
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python
+- OpenCV
+- YOLOv5 / YOLOv8
+- NumPy, Pandas
+- Matplotlib / Seaborn
+- Google Colab
+
+---
+
+## ✅ Work Completed
+
+- ✅ Set up object detection with YOLO for initial player/ball recognition
+- ✅ Preprocessed football video footage for analysis
+- ✅ Started working on frame extraction and player tracking
+
+---
+
+## ❌ Issues Faced
+
+- ⚠️ **Inaccurate ball tracking** in cluttered frames due to overlapping players
+- ⚠️ **Frame-by-frame processing too slow** for long videos (inefficient pipeline)
+- ⚠️ Difficulty in maintaining object identity over time (player tracking instability)
+- ⚠️ GPU limitations in Colab restricted real-time or high-res processing
+- ⚠️ Model not able to differentiate teams properly without labeled dataset
+
+---
+
+## 📘 Lessons Learned
+
+- Importance of optimizing video processing pipelines
+- Need for better training data or fine-tuned YOLO weights
+- Advanced tracking (e.g., DeepSORT, ByteTrack) should be integrated early
+- Consider lightweight deployment models or frame sampling strategies
+
+---
+
+## 🔁 Future Improvements
+
+- Integrate advanced object tracking algorithms (e.g., DeepSORT or BoT-SORT)
+- Use a lower frame-rate sampling strategy to reduce computation
+- Train custom YOLO model on labeled football datasets for better accuracy
+- Try segmenting video and running detection in parallel
+- Explore hybrid models for analytics (e.g., combine YOLO + keypoint detection)
+
+---
+
+## 🙋‍♂️ Author
+
+**Jagadeesh A**  
+[LinkedIn](https://www.linkedin.com/in/jagadeesh-ai/) | [Portfolio](https://jaggi1618.github.io/personal_portfolio_Aj/)
+
+---
+
+## 📄 License
+
+This project is not licensed for distribution, as it is incomplete. Use ideas and code snippets with proper attribution.
+
